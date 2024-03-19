@@ -87,3 +87,25 @@ I have uploaded my [CLI dump](cli_dump/BF_airboat_diamondf4_dump.txt) if anyone 
 
 - Disable VTX: We need to disable the built in VTX if our FC has one so we dont cook the board. This can usually be accomplished by bridging a solder pad or disabling in software.  
   I have disabled the VTX in the `Configuration` -> `Other Features` tab in betaflight.
+
+
+Extras:
+=======
+I've done extensive testing of different hulls, some of which lead to stranded vessels.
+To recover vessels I'm testing out a floating recovery rope (floating fly fishing line) that I can pull behind one of the boat and "drive" the recovery boat+line around the stranded vessel to bring it home.
+I have added the following miscellaneous parts to the project:
+
+
+### Carrier Utility Plug
+![Airboat with utility setup](photos/utility_rig.jpg)
+<img align="left" width="130" height="100" src="photos/utility_plug.jpg">
+- The carrier plug can be swapped out with this Carrier Utility Plug to add a loop to the back of the airboat.
+- [airboat_utility_plug.stl](airboat_design/airboat_utility_plug.stl) can be found in the `airboat_design/` directory
+- print with no supports
+---
+
+I tested numerous hull designs looking for the most balanced. I even made a ramp boat so I can drive it out to the middle of the pond and ramp my other airboat. Turns out it had a tendency to capsize..
+Here are some of my prototypes:
+![Many airboat hulls](photos/many_hulls.jpg)
+
+If you've come this far, thanks for checking out my project, if you have any interest in the source files or to see all of my legacy designs, check out the project over on [onshape](https://cad.onshape.com/documents/6728372e51ea95be38f71059/w/a7f577bf32b5131d55028480/e/84ca7f1b91ac43509baaff38)
