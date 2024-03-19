@@ -61,4 +61,4 @@ I have uploaded my [CLI dump](cli_dump/BF_airboat_diamondf4_dump.txt) if anyone 
   ```
 
 - Disable VTX: We need to disable the built in VTX if our FC has one so we dont cook the board. This can usually be accomplished by bridging a solder pad or disabling in software.  
-  I have diabled the VTX in the `Configuration` -> `Other Features` tab in betaflight.
+  I have disabled the VTX in the `Configuration` -> `Other Features` tab in betaflight.
