@@ -19,16 +19,16 @@ Parts list:
 How to print:
 =============
 This project is broken into 3 printable parts.
-- Hull: This is the hull of the boat without any electronics or additional features
-- Carrier: This is the model where all of the electronics are mounted, this can be moved to different hull designs
-- Carrier plug: This is a plug that fits in behind the carrier (it helps push the carrier forward to balance the weight on the hull and fills the gap behind the carrier)
+- [Hull](airboat_design/airboat_neo_hull.stl): This is the hull of the boat without any electronics or additional features (print upside down with supports touching buildplate)
+- [Carrier](airboat_design/carrier.stl): This is the model where all of the electronics are mounted, this can be moved to different hull designs (print flat side down with no supports)
+- [Carrier plug](airboat_design/airboat_carrier_plug.stl): This is a plug that fits in behind the carrier (it helps push the carrier forward to balance the weight on the hull and fills the gap behind the carrier) (print large side down with no supports)
 
 You will need to print one of each of these pieces to complete your airboat.
 
 Programming FC:
 ===============
 If you decided to use an old flight controller like I did, you'll need to configure it in betaflight to work as an airboat.
-I have uploaded my CLI dump if anyone is using a diamond f4, otherwise you'll need to do a few different configurations.
+I have uploaded my [CLI dump](cli_dump/BF_airboat_diamondf4_dump.txt) if anyone is using a diamond f4, otherwise you'll need to do a few different configurations.
 
 - Motor Resource allocation: You need to only enable the 2 motors that are being used.
   ```
