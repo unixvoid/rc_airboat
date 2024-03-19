@@ -1,14 +1,18 @@
 Airboat
 =======
+<p align="center">
+  <img width="520" height="360" src="photos/close_up_double.jpg">
+</p>
 This project is an agile and speedy airboat designed with spare parts that I had laying around.  
 Like most FPV pilots, I have a handfull of spare or broken parts laying around and I wanted to use on a watercraft design.
 After countless testing and hull re-designing I finally landed on what I think is a good balanced hull design.
 The hull is able to be taken up to full throttle and fully turned without capsizing or upsetting the hull too much.  
   
-Here is the list of parts I used to create the airboat, but many other tinywhoop parts will work as well.
 
 Parts list:
 ===========
+Here is the list of parts I used to create the airboat, but many other tinywhoop parts will work as well.
+
 - Flight Controller: Happymodel Diamond F4 ELRS
 - Motors: 2x newbeedrone 0703 16420kv
 - Props: Gemfan 1610 biblade
@@ -16,14 +20,34 @@ Parts list:
 - bit of velcro for battery strap
 - conformal coating
 
+
 How to print:
 =============
-This project is broken into 3 printable parts.
-- [Hull](airboat_design/airboat_neo_hull.stl): This is the hull of the boat without any electronics or additional features (print upside down with supports touching buildplate)
-- [Carrier](airboat_design/carrier.stl): This is the model where all of the electronics are mounted, this can be moved to different hull designs (print flat side down with no supports)
-- [Carrier plug](airboat_design/airboat_carrier_plug.stl): This is a plug that fits in behind the carrier (it helps push the carrier forward to balance the weight on the hull and fills the gap behind the carrier) (print large side down with no supports)
+This project is broken into 3 printable parts, You will need to print one of each of these pieces to complete your airboat.
 
-You will need to print one of each of these pieces to complete your airboat.
+### Hull
+<img align="left" width="130" height="100" src="photos/hull.jpg">
+
+- This is the hull of the boat without any electronics or additional features  
+- print upside down with supports touching buildplate)
+- [airboat_neo_hull.stl](airboat_design/airboat_neo_hull.stl) can be found in the `airboat_design/` directory
+---
+### Carrier
+<img align="left" width="130" height="100" src="photos/carrier.jpg">
+
+- This is the model where all of the electronics are mounted, this can be moved to different hull designs  
+- print flat side down with no supports 
+- [carrier.stl](airboat_design/carrier.stl) can be found in the `airboat_design/` directory
+---
+### Carrier Plug
+<img align="left" width="130" height="100" src="photos/carrier_plug.jpg">
+
+- This is a plug that fits in behind the carrier  
+- it helps push the carrier forward to balance the weight on the hull and fills the gap behind the carrier
+- Print large sizde down with no supports 
+- [airboat_carrier_plug.stl](airboat_design/airboat_carrier_plug.stl) can be found in the `airboat_design/` directory
+
+
 
 Programming FC:
 ===============
@@ -52,6 +76,7 @@ I have uploaded my [CLI dump](cli_dump/BF_airboat_diamondf4_dump.txt) if anyone 
 
 - Disable Profile Independant Filter Settings: We can disable much of the filtering since we aren't a quadcopter anymore.  
   - Disable `Gyro Lowpass Filters`, `Gyro Notch Filters`, and `Dynamic Notch Filter`  
+  - [Reference photo](photos/airboat_bf_filters.png)
 
 - Disable Runaway Prevention: On one of my boats, runaway prevention stopped me from hitting full power on the airboat, so I ended up disabling it
   ```
