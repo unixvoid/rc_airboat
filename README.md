@@ -111,3 +111,7 @@ Here are some of my prototypes:
 ![Many airboat hulls](photos/many_hulls.jpg)
 
 If you've come this far, thanks for checking out my project, if you have any interest in the source files or to see all of my legacy designs, check out the project over on [onshape](https://cad.onshape.com/documents/6728372e51ea95be38f71059/w/a7f577bf32b5131d55028480/e/84ca7f1b91ac43509baaff38)
+
+
+[![Indoor airboat testing](https://img.youtube.com/vi/J2SFbNkRmbY/default.jpg)](https://youtu.be/J2SFbNkRmbY)  
+[![Airboat sea trials](https://img.youtube.com/vi/VxDwH-HvI94/default.jpg)](https://youtu.be/VxDwH-HvI94)
