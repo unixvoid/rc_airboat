@@ -50,6 +50,9 @@ I have uploaded my [CLI dump](cli_dump/BF_airboat_diamondf4_dump.txt) if anyone 
   save
   ```
 
+- Disable Profile Independant Filter Settings: We can disable much of the filtering since we aren't a quadcopter anymore.  
+  - Disable `Gyro Lowpass Filters`, `Gyro Notch Filters`, and `Dynamic Notch Filter`  
+
 - Disable Runaway Prevention: On one of my boats, runaway prevention stopped me from hitting full power on the airboat, so I ended up disabling it
   ```
   set runaway_takeoff_prevention = OFF
