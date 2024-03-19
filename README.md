@@ -24,6 +24,8 @@ Here is the list of parts I used to create the airboat, but many other tinywhoop
 How to print:
 =============
 This project is broken into 3 printable parts, You will need to print one of each of these pieces to complete your airboat.
+I printed most of the hulls and the carrier in PLA with great success.  
+I also tried out lightweight PLA on a couple hulls which ended up absorbing water, so I recommend other materials unless you want to coat it after printing.
 
 ### Hull
 <img align="left" width="130" height="100" src="photos/hull.jpg">
