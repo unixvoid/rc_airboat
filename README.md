@@ -6,7 +6,9 @@ Airboat
 This project is an agile and speedy airboat designed with spare parts that I had laying around.  
 Like most FPV pilots, I have a handfull of spare or broken parts laying around and I wanted to use on a watercraft design.
 After countless testing and hull re-designing I finally landed on what I think is a good balanced hull design.
-The hull is able to be taken up to full throttle and fully turned without capsizing or upsetting the hull too much.  
+The hull is able to be taken up to full throttle and fully turned without capsizing or upsetting the hull too much.
+
+This project is also posted to [thingiverse](https://www.thingiverse.com/thing:6541742 "thingiverse link")
   
 
 Parts list:
